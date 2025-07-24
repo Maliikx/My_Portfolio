@@ -107,7 +107,7 @@ export default function Header() {
             onMouseLeave={() => setIsHovered(false)}
           >
             <div className="pl-2 flex flex-col items-center">
-              <h1 className=" font-bold text-[4rem] sm:text-[5rem] md:text-[7rem] uppercase">
+              <h1 className=" select-none font-bold text-[4rem] sm:text-[5rem] md:text-[7rem] uppercase">
                 They call <br /> me <span className="text-primary">Malek</span>
               </h1>
               <h1 className=" capitalize font-bold text-sm md:text-2xl w-fit self-start text-secondary border border-secondary px-1">

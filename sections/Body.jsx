@@ -268,7 +268,7 @@ const Body = () => {
       >
        
       
-        <div className="flex flex-col gap-20 md:gap-40   relative ">
+        <section className="flex flex-col gap-20 md:gap-40   relative ">
           <div className=" flex flex-col w-[90%] self-center gap-10 md:gap-20  ">
             <h1
               ref={aboutRef}
@@ -297,7 +297,7 @@ const Body = () => {
             <hr className="border-primary" />
           </div>
           {/* Second section */}
-          <div
+          <section
             id="what"
             className=" flex flex-col gap-10 w-[90%] h-[250vh] self-center "
           >
@@ -319,11 +319,11 @@ const Body = () => {
                 })}
               </div>
             </div>
-          </div>
+          </section>
           {/* Second section end */}
           <Skills skillEnter_active={skillEnter_active} skillLeave_active={skillLeave_active} />
           {/* third section */}
-          <div id="SellectedWork"  className=" flex flex-col w-[90%]  pb-80 self-center gap-80">
+          <section id="SellectedWork"  className=" flex flex-col w-[90%]  pb-80 self-center gap-80">
             <hr className="border-primary " />
             <h1 className="text-5xl md:text-8xl -mt-60 font-bold  border-primary  w-fit  h-fit  px-1  ">
               SELECTED WORK
@@ -403,8 +403,8 @@ const Body = () => {
                 </div>
               ))}
               </div>
-          </div>
-        </div>
+          </section>
+        </section>
       </div>
     </>
   );

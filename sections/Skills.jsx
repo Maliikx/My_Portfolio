@@ -91,7 +91,7 @@ const Skills = ({ skillEnter_active, skillLeave_active }) => {
   return (
     //   third section
 
-    <div id="Skills" className="  flex flex-col w-[90%] self-center gap-20">
+    <section id="Skills" className="  flex flex-col w-[90%] self-center gap-20">
       <hr className="border-primary " />
       <h1
         ref={skillRef}
@@ -231,7 +231,7 @@ const Skills = ({ skillEnter_active, skillLeave_active }) => {
             />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
