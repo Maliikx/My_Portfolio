@@ -73,7 +73,7 @@ export default function Header() {
         <div
           onTouchStart={handleTouchStart}
           onTouchEnd={handleTouchEnd}
-          className="absolute z-10 flex select-auto justify-center items-center font-bold text-primary rounded-full w-[50px] h-[50px] bg-hint"
+          className="absolute  select-none z-10 flex  justify-center items-center font-bold text-primary rounded-full w-[50px] h-[50px] bg-hint"
           style={{ left: 'calc(50% - 25px)', top: 'calc(80% - 2px)' }}
         >
           <Eye/>
@@ -111,8 +111,8 @@ export default function Header() {
               <h1 className=" select-none font-bold text-[4rem] sm:text-[5rem] md:text-[7rem] uppercase">
                 They call <br /> me <span className="text-primary">Malek</span>
               </h1>
-              <h1 className=" capitalize font-bold text-sm md:text-2xl w-fit self-start text-secondary border border-secondary px-1">
-                <span className="text-primary">Creative</span> front-end developer / designer
+              <h1 className=" capitalize  select-none font-bold text-sm md:text-2xl w-fit self-start text-secondary border border-secondary px-1">
+                <span className=" select-none text-primary">Creative</span> front-end developer / designer
               </h1>
             </div>
           </span>
@@ -125,12 +125,12 @@ export default function Header() {
                   <div className="overflow-hidden">
                     <h1
                       ref={heroRef}
-                      className="words text-[4rem] sm:text-[5rem] md:text-[7rem] uppercase font-bold w-fit mt-0 mx-auto"
+                      className="words  select-none text-[4rem] sm:text-[5rem] md:text-[7rem] uppercase font-bold w-fit mt-0 mx-auto"
                     >
                       <span className="text-hint">I'm</span> Ahmed <br /> Haytham
                     </h1>
                   </div>
-                  <h2 className="capitalize font-bold text-sm md:text-2xl w-fit self-start bg-secondary text-primary border border-secondary px-1">
+                  <h2 className="capitalize  select-none font-bold text-sm md:text-2xl w-fit self-start bg-secondary text-primary border border-secondary px-1">
                     <span>Freelance</span> front-end developer / designer
                   </h2>
                 </div>

@@ -272,11 +272,11 @@ const Body = () => {
           <div className=" flex flex-col w-[90%] self-center gap-10 md:gap-20  ">
             <h1
               ref={aboutRef}
-              className={`about text-5xl md:text-8xl font-bold border-primary w-fit  h-fit  text-primary`}
+              className={`about   text-5xl md:text-8xl font-bold border-primary w-fit  h-fit  text-primary`}
             >
               ABOUT ME
             </h1>
-            <p ref={text1Ref} id="texty" className="sm:text-xl md:text-3xl lg:text-5xl  md:h-[35vh] bg-secondary p-4">
+            <p ref={text1Ref} id="texty" className=" select-none sm:text-xl md:text-3xl lg:text-5xl  md:h-[35vh] bg-secondary p-4">
               I'm a dedicated <mark>software engineer</mark> specializing in{" "}
               <mark>front-end</mark> engineering, adept at shaping compelling
               digital experiences for <mark>web and mobile</mark> platforms. that
@@ -286,7 +286,7 @@ const Body = () => {
             <p
             ref={text2Ref}
               id="texty2"
-              className="sm:text-xl md:text-3xl lg:text-5xl italic bg-secondary text-primary  p-4"
+              className="sm:text-xl  select-none md:text-3xl lg:text-5xl italic bg-secondary text-primary  p-4"
             >
               Not only transforming ideas into impactful realities, but giving
               your business an "unfair advantage."
