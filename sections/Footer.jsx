@@ -123,7 +123,7 @@ const Footer = ({ revealMenu }) => {
 
           <div className="text-accent text-xs md:text-xl lg:text-4xl uppercase  font-bold w-fit whitespace-nowrap  flex flex-col  self-end">
             <h1 className="bordher-t-2   font-bold uppercase">
-              &copy; 2025 Maliikx-devs
+              &copy; 2025 Maliikx-dev
             </h1>
             <h1>all rights reserved</h1>
           </div>
