@@ -240,7 +240,7 @@ const Body = () => {
       <motion.div
         variants={variants}
         animate={cursorVar}
-        className={`bg-primary  pointer-events-none fixed flex items-center justify-center top-0 z-50 left-0  w-0 h-0 
+        className={`bg-primary not-md:hidden  pointer-events-none fixed flex items-center justify-center top-0 z-50 left-0  w-0 h-0 
           ${showSkillInfo || active ? ' mix-blend-normal' : 'mix-blend-difference'} ${showSkillInfo ? "mt-25 rounded-md " : ""} rounded-full ${active ? "-m-6 opacity-75" : ""}`}
       >
         {active && 
