@@ -14,6 +14,7 @@ import {
   SiDart,
   SiSwift,
   SiNodedotjs,
+  SiGithub,
 } from "react-icons/si";
 
 const iconsStyle =
@@ -164,6 +165,16 @@ const Skills = ({ skillEnter_active, skillLeave_active }) => {
             )
           }
           onMouseLeave={skillLeave_active}
+        />
+        <SiGithub
+          onMouseEnter={() =>
+            skillEnter_active(
+              "Github",
+              "Where code meets collaboration and progress is tracked with purpose."
+            )
+          }
+          onMouseLeave={skillLeave_active}
+          className={iconsStyle}
         />
 
         <SiFlutter
