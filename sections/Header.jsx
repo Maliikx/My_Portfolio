@@ -72,7 +72,7 @@ export default function Header() {
         <div
           onTouchStart={handleTouchStart}
           onTouchEnd={handleTouchEnd}
-          className="absolute z-10 flex justify-center items-center font-bold text-primary rounded-full w-[50px] h-[50px] bg-hint"
+          className="absolute z-10 flex select-auto justify-center items-center font-bold text-primary rounded-full w-[50px] h-[50px] bg-hint"
           style={{ left: 'calc(50% - 25px)', top: 'calc(80% - 2px)' }}
         >
           HOLD
