@@ -1,7 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import {ReactLenis} from '@/util/lenis.js'
-import NavMenu from "@/sections/components/NavMenu";
+import { Analytics } from '@vercel/analytics/next';
 
 
 
@@ -30,6 +30,8 @@ export default function RootLayout({ children }) {
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
           {children}
+          <Analytics />
+
 
         </body>
       </ReactLenis>
