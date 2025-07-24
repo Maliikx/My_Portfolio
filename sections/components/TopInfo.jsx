@@ -10,6 +10,7 @@ const  contentStyle = " uppercase";
 
 
 
+
 const TopInfo = () => {
   const [time, setTime] = useState("");
 
@@ -58,10 +59,10 @@ const TopInfo = () => {
           <h1 className={contentStyle}>Egypt</h1>
         </div>
 
-        <div className={`bg-hint rounded-md text-primary justify-center font-bold ${wrapperStyle}`}>
+        <button className={`bg-hint rounded-md text-primary justify-center font-bold ${wrapperStyle}`}>
           {/* <h1 className={labelsStyle}>Resume</h1> */}
           <Fliplink href='#Contact' className={contentStyle}>Contact</Fliplink>
-        </div>
+        </button>
 
         {/* <button className=' font-black border-2 border-hint  bg-hint px-3 rounded-lg text-primary cursor-pointer hover:bg-transparent hover:text-secondary  '>Contact</button> */}
       </div>
