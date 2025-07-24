@@ -6,7 +6,8 @@ import { SplitText } from 'gsap/all';
 import TopInfo from './components/TopInfo';
 import useMouse from '@/util/useMouse';
 import styles from './page.module.scss';
-import { ArrowDownRight } from 'lucide-react';
+import { ArrowDownRight, Eye } from 'lucide-react';
+import { SiAffinitydesigner, SiUphold } from 'react-icons/si';
 
 gsap.registerPlugin(SplitText);
 
@@ -75,7 +76,7 @@ export default function Header() {
           className="absolute z-10 flex select-auto justify-center items-center font-bold text-primary rounded-full w-[50px] h-[50px] bg-hint"
           style={{ left: 'calc(50% - 25px)', top: 'calc(80% - 2px)' }}
         >
-          HOLD
+          <Eye/>
         </div>
       )}
       <motion.main style={{ opacity, scale }} className={styles.main}>
