@@ -9,7 +9,7 @@ const  labelsStyle = " font-semibold uppercase sm:text-lg";
 const  contentStyle = " uppercase";
 
 
-
+//TODO fix alignment
 
 const TopInfo = () => {
   const [time, setTime] = useState("");
@@ -49,20 +49,20 @@ const TopInfo = () => {
           </div>
         </div> */}
 
-        {/* <div className={wrapperStyle}>
-          <h1 className={labelsStyle}>Time</h1>
-          <h1 className={contentStyle}>{time}</h1>
-        </div> */}
 
         <div className={wrapperStyle}>
           <h1 className={labelsStyle}>Based in</h1>
           <h1 className={contentStyle}>Egypt</h1>
         </div>
+        {/* <div className={wrapperStyle}>
+          <h1 className={labelsStyle}>Time</h1>
+          <h1 className={contentStyle}>{time}</h1>
+        </div> */}
 
-        <button className={`bg-hint rounded-md text-primary justify-center font-bold ${wrapperStyle}`}>
+        <a href='#Contact' className={`bg-hint rounded-md text-primary justify-center font-bold ${wrapperStyle}`}>
           {/* <h1 className={labelsStyle}>Resume</h1> */}
-          <Fliplink href='#Contact' className={contentStyle}>Contact</Fliplink>
-        </button>
+          <Fliplink href='#Contact' className={` ${contentStyle}`}>Contact</Fliplink>
+        </a>
 
         {/* <button className=' font-black border-2 border-hint  bg-hint px-3 rounded-lg text-primary cursor-pointer hover:bg-transparent hover:text-secondary  '>Contact</button> */}
       </div>

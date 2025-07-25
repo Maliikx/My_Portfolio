@@ -94,6 +94,7 @@ export default function Contact() {
         body: JSON.stringify({
           access_key: '77c48e95-89fa-456d-8213-378d2c76b28e',
           name: formData.name,
+          number: formData.number,
           email: formData.email,
           message: formData.message,
         }),

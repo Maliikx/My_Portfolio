@@ -361,7 +361,7 @@ const Body = () => {
                       ref={ref => bannerRef.current[i]= ref}
                       onMouseEnter={textEnter_active}
                       onMouseLeave={textLeave_active}
-                      className="relative rounded-xl  bg-[#077bb5] aspect-[4/3] lg:aspect-[3/4] w-full  lg:h-[500px] xl:h-[750px]  flex justify-center items-center"
+                      className="relative rounded-xl  bg-[#077bb500] aspect-[4/3] lg:aspect-[3/4] w-full  lg:h-[500px] xl:h-[750px]  flex justify-center items-center"
                     >
                       {/* <img
                         className=" object-cover opacity-30 h-full"
@@ -370,10 +370,10 @@ const Body = () => {
                       /> */}
                       <Image
                       alt=""
-                      src={'/bginci.jpg'}
+                      src={'/workBg.jpg'}
                       fill
-                      className=" filter grayscale"
-                      style={{ objectFit: 'cover', opacity: 0.3}}
+                      className=""
+                      style={{ objectFit: 'cover', opacity: 1}}
                       />
                       <div className=" absolute z-[2] w-[70%] flex flex-col justify-center ">
                         <div className="h-2 rounded-md rounded-b-none bg-[#666] flex flex-row items-center gap-1 pl-3 ">
