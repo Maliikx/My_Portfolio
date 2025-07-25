@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌐 Personal Web Portfolio
 
-## Getting Started
+Hi, I'm Ahmed – a passionate Front-end developer focused on building elegant, responsive, and interactive web & mobile experiences.
 
-First, run the development server:
+This is my personal portfolio website, built to showcase my work, skills, and experience. It’s clean, minimal, and built with modern technologies.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Tech Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Framework:** Next.js / React.js  
+- **Styling:** Tailwind CSS / CSS Modules  
+- **Animations:** GSAP / Framer Motion
+- **Deployment:** Vercel
+- **Tools:** Figma, Git, VS Code  
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 📁 Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- 🖥️ Interactive and responsive design  
+- 📄 Smooth scroll & section navigation  
+- 💼 Projects section with live previews  
+- 📬 Contact form with form validation  
 
-## Learn More
+## 📸 Screenshots
+<img width="1680" height="1050" alt="Screen Shot 2025-07-25 at 1 00 56 PM" src="https://github.com/user-attachments/assets/fc6ac30b-734d-4ce1-91d5-81f8004e8a93" />
 
-To learn more about Next.js, take a look at the following resources:
+<img width="1680" height="1050" alt="Screen Shot 2025-07-25 at 1 01 06 PM" src="https://github.com/user-attachments/assets/3e30d423-7970-4ecd-abff-b445e4deb891" />
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+<img width="1680" height="1050" alt="Screen Shot 2025-07-25 at 1 01 15 PM" src="https://github.com/user-attachments/assets/11ebb05e-1a8a-48e9-9dde-e532ff2eea9a" />
 
-## Deploy on Vercel
+<img width="1680" height="1050" alt="Screen Shot 2025-07-25 at 1 01 34 PM" src="https://github.com/user-attachments/assets/e1ce42b4-40f0-4cb2-8678-413ec7754cdc" />
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<img width="1680" height="1050" alt="Screen Shot 2025-07-25 at 1 01 50 PM" src="https://github.com/user-attachments/assets/c34a9a3e-4017-4816-8295-7d048e9935b5" />
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<img width="1680" height="1050" alt="Screen Shot 2025-07-25 at 1 03 00 PM" src="https://github.com/user-attachments/assets/7f334ccc-014e-413b-b349-4f1f076dc1e8" />
+
+<img width="1680" height="1050" alt="Screen Shot 2025-07-25 at 1 02 39 PM" src="https://github.com/user-attachments/assets/25e97e3e-448f-4100-a0e5-66ceb3c323cc" />
+
