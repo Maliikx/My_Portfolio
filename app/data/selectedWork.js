@@ -17,7 +17,7 @@ export const selectedWork = [
     // },
     {
         'title' : 'Soul Support',
-        'imgPath' : './soulSupport/ss0.png',
+        'imgPath' : './soulSupport/ss0.jpg',
         'description' : 'My Graduation project an AI-powered Mental Health Support cross-platform App',
         'link' : '',
         'date' : '2025',
