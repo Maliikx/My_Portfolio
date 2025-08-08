@@ -344,7 +344,8 @@ const Body = () => {
                       ref={ref => bannerRef.current[i]= ref}
                       onMouseEnter={textEnter_active}
                       onMouseLeave={textLeave_active}
-                      className={`relative rounded-xl   bg-[${work.hue}]  aspect-[4/3] lg:aspect-[3/4] w-full  lg:h-[500px] xl:h-[750px]  flex justify-center items-center`}
+                      className="relative rounded-xl  aspect-[4/3] lg:aspect-[3/4] w-full  lg:h-[500px] xl:h-[750px]  flex justify-center items-center"
+                      style={{ backgroundColor: `#${work.hue}` }}
                     >
                       <Image
                       alt=""

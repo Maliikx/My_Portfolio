@@ -6,7 +6,7 @@ export const selectedWork = [
         'link' : 'https://Heritage.Villas',
         'date' : '2025',
         'job': 'Developed',
-        'hue': '#aa9953'
+        'hue': 'e0c060'
 
     },
     
@@ -17,7 +17,7 @@ export const selectedWork = [
         'link' : 'https://www.inciflexegypt.com/',
         'date' : '2024',
         'job': 'Developed - Designed - SEO',
-        'hue': '#'
+        'hue': ''
 
     },
     // {
@@ -35,7 +35,7 @@ export const selectedWork = [
         'link' : 'https://github.com/Maliikx/soul_support',
         'date' : '2025',
         'job': 'Developed - Designed',
-        'hue': '#01709A'
+        'hue': '01709A'
     },
     
 
