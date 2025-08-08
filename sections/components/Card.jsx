@@ -31,7 +31,14 @@ export default function Card({ i, title, number, content, quote, className = '' 
 
     
 
-    gsap.from(servicesRef.current, {
+    gsap.fromTo(servicesRef.current, 
+      {
+        scale: 0.7,
+        opacity: 0,
+        y:50,
+        ease:'power1.inOut'
+      },
+      {
       scrollTrigger: {
         trigger: servicesRef.current,
         scrub: true,
@@ -39,9 +46,9 @@ export default function Card({ i, title, number, content, quote, className = '' 
         start: " 70% 50% ",
         // markers: "true",
       },
-      scale: 0.7,
-      opacity: 0,
-      y:50,
+      scale: 1,
+      opacity: 1,
+      y:1,
 
       
       // x:-200,
