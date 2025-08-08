@@ -76,7 +76,7 @@ export default function Header() {
           className="hold-down-icon absolute  select-none z-10 flex  justify-center items-center font-bold text-primary rounded-full w-[50px] h-[50px] bg-hint"
           style={{ left: 'calc(50% - 25px)', top: 'calc(80% - 2px)' }}
         >
-          <Eye/>
+          <Eye className='select-none'/>
         </div>
       )}
       <motion.main style={{ opacity, scale }} className={styles.main}>
