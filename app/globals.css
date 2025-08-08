@@ -73,6 +73,14 @@ body {
   }
 }
 
+.hold-down-icon{
+  -webkit-touch-callout: none; /* Disable long-press menu in Safari */
+  -webkit-user-select: none;   /* Prevent text/image selection */
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
 
 /* 
  @theme inline {
