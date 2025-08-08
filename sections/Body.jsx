@@ -332,70 +332,50 @@ const Body = () => {
             {selectedWork.map((work, i)=>(
                 <div ref={ref => SelectedWorkRef.current[i]= ref} key={i}  className="flex flex-col lg:flex-row ">
                 <div ref={ref => titleRef.current[i]= ref} className=" w-1/2 ">
-                  <h1 className="lg:absolute   uppercase z-[-1] -mt-30 w-[60vw] wrap-break-word text-[2rem]/[2rem] md:text-[3rem]/[3rem] lg:text-[10rem]/[10rem]   xl:text-[15rem]/[18rem] font-bold">
+                  <h1 className="lg:absolute   uppercase z-[-1] -mt-30 w-[60vw] wrap-break-word text-[2rem]/[2rem] md:text-[3rem]/[3rem] lg:text-[10rem]/[10rem]   xl:text-[12.5rem]/[15rem] font-bold"> 
+                  {/* xl:text-[15rem]/[18rem] */}
                     {work.title}
                   </h1>
                 </div>
                 <div className="flex w-full lg:items-end flex-col lg:flex-row gap-5">
                   <Link target="_blank" href={work.link}>
-                    {/* <TiltedCard
-                    imageSrc="bginci.jpg"
-                    altText="Kendrick Lamar - GNX Album Cover"
-                    captionText="Kendrick Lamar - GNX"
-                    containerHeight="750px"
-                    containerWidth="550px"
-                    imageHeight="750px"
-                    imageWidth="550px"
-                    rotateAmplitude={12}
-                    scaleOnHover={1.1}
-                    showMobileWarning={false}
-                    showTooltip={true}
-                    displayOverlayContent={true}
-                    overlayContent={
-                      <p className="tilted-card-demo-text">
-                        INCI-FLEX-EGYPT
-                      </p>
-                    }
-                    /> */}
+                    
                     <div
                       ref={ref => bannerRef.current[i]= ref}
                       onMouseEnter={textEnter_active}
                       onMouseLeave={textLeave_active}
-                      className="relative rounded-xl  bg-[#077bb500] aspect-[4/3] lg:aspect-[3/4] w-full  lg:h-[500px] xl:h-[750px]  flex justify-center items-center"
+                      className={`relative rounded-xl   bg-[${work.hue}]  aspect-[4/3] lg:aspect-[3/4] w-full  lg:h-[500px] xl:h-[750px]  flex justify-center items-center`}
                     >
-                      {/* <img
-                        className=" object-cover opacity-30 h-full"
-                        src="./bginci.jpg"
-                        alt=""
-                      /> */}
                       <Image
                       alt=""
                       src={'/workBg.jpg'}
                       fill
-                      className=""
+                      className=" mix-blend-screen rounded-xl"
                       style={{ objectFit: 'cover', opacity: 1}}
                       />
                       <div className=" absolute z-[2] w-[70%] flex flex-col justify-center ">
                         <div className="h-2 rounded-md rounded-b-none bg-[#666] flex flex-row items-center gap-1 pl-3 ">
                          
                           </div>
-                          <img
-                            className=" relative  border-2 rounded-t-none  rounded-md border-[#666] shadow-xl"
-                            src={work.imgPath}
-                            alt=""
-                            loading="lazy"
-                          />
+                          <Image
+                              src={work.imgPath}
+                              alt=""
+                              width={800} 
+                              height={600} 
+                              className="relative border-2 rounded-t-none rounded-md border-[#666] shadow-xl bg-[#666]"
+                              style={{ height: 'auto', width: '100%' }} //  make it responsive
+                            />
                       </div>
                     </div>
                   </Link>
                   <div ref={ref => descRef.current[i] = ref} className="  flex flex-col justify-between items-center h-full">
                     <pre className=" font-bold text-lg not-sm:pl-3.5 self-start">({i+1})</pre>
-                    <div className="w-72 flex flex-col  gap-2">
+                    <div className=" flex flex-col  gap-2">
                       {" "}
                       <p className=" text-xl lg:text-3xl   ">
                         {work.description}
                       </p>
-                        <div className=" font-bold  text-xl bg-primary text-secondary rounded-full  w-fit px-2">{work.job}</div>
+                        <div className=" font-bold  text-lg bg-primary text-secondary rounded-full  w-fit py-1 px-3">{work.job}</div>
                         <div className=" font-bold  text-2xl">{work.date}</div>
                     </div>
                   </div>

@@ -15,6 +15,7 @@ import {
   SiSwift,
   SiNodedotjs,
   SiGithub,
+  SiWordpress,
 } from "react-icons/si";
 
 const iconsStyle =
@@ -166,6 +167,16 @@ const Skills = ({ skillEnter_active, skillLeave_active }) => {
           }
           onMouseLeave={skillLeave_active}
         />
+         <SiWordpress
+          onMouseEnter={() =>
+            skillEnter_active(
+              "WordPress",
+              "Fluent in WordPress. Focused on results."
+            )
+          }
+          onMouseLeave={skillLeave_active}
+          className={iconsStyle}
+        />
         <SiGithub
           onMouseEnter={() =>
             skillEnter_active(
@@ -215,6 +226,7 @@ const Skills = ({ skillEnter_active, skillLeave_active }) => {
           onMouseLeave={skillLeave_active}
           className={iconsStyle}
         />
+       
       </div>
       <div className="flex flex-col gap-20">
         <h2 className="text-lg md:text-3xl uppercase font-bold">Currently Learning:-</h2>
