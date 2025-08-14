@@ -108,7 +108,7 @@ const Footer = ({ revealMenu }) => {
             <div className="flex flex-col w-full ">
               <h1>Links</h1>
               <div className=" border-t-2 text-sm  sm:text-md md:text-2xl font-bold flex flex-col">
-                <Fliplink isdownload={true}  href={'/Ahmed-Haytham-Ahmed-CV-Resume-20250807.pdf'} target={'_blank'}>Resume</Fliplink>
+                <Fliplink isdownload={true}  href={'/Ahmed.Haytham-CV-resume.pdf'} target={'_blank'}>Resume</Fliplink>
                 <Fliplink target={'_blank'} href={"https://github.com/maliikx"}>
                   Github
                 </Fliplink>
