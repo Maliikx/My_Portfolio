@@ -67,7 +67,7 @@ export default function Header() {
   const handleTouchEnd = () => setIsHolding(false);
 
   return (
-    <header className="bg-primary h-[80vh] overflow-hidden sticky top-0 flex flex-col justify-center items-center">
+    <header className="bg-primary h-[80svh] overflow-hidden sticky top-0 flex flex-col justify-center items-center">
       <TopInfo />
       {isMobile && (
         <div
@@ -103,36 +103,40 @@ export default function Header() {
           transition={{ type: 'tween', ease: 'backOut', duration: 0.5 }}
         >
           <span
-            className="w-fit flex justify-center"
+            className="w-fit flex  flex-col gap-3"
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
           >
-            <div className="pl-2 flex flex-col items-center">
-              <h1 className=" select-none font-bold text-[4rem] sm:text-[5rem] md:text-[7rem] uppercase">
-                They call <br /> me <span className="text-primary">Malek</span>
+            <div className=" pl-3 md:pl-1.5 flex flex-col items-start gap-3">
+              <h1 className=" select-none font-bold text-[4rem]/[4rem]  sm:text-[5rem]/[5rem] md:text-[6rem]/[6rem] uppercase">
+                They call <br className='visible lg:hidden'/>  me <span className="text-primary">Malek</span>,
               </h1>
-              <h1 className=" capitalize  select-none font-bold text-sm md:text-2xl w-fit self-start text-secondary border border-secondary px-1">
+              <h2 className=" capitalize  select-none font-bold text-sm md:text-2xl w-fit self-start text-secondary border border-secondary px-1">
                 <span className=" select-none text-primary">Creative</span> front-end developer / designer
-              </h1>
+              </h2>
+              <p className='text-[1rem]/[1.5] sm:text-3xl font-black '>If you were looking for a way to break free <br />from the generic templates, look no more </p>
             </div>
           </span>
         </motion.div>
         <div className={styles.body}>
           <div id="heroCon">
             <span>
-              <div className="flex flex-col items-center">
-                <div className="w-fit">
+              <div className="flex flex-col   ">
+                <div className="w-fit flex flex-col gap-3 items-start">
                   <div className="overflow-hidden">
                     <h1
                       ref={heroRef}
-                      className="words  select-none text-[4rem] sm:text-[5rem] md:text-[7rem] uppercase font-bold w-fit mt-0 mx-auto"
+                      className="words  select-none text-[4rem]/[4rem]  sm:text-[5rem]/[5rem] md:text-[6rem]/[6rem] uppercase font-bold w-fit mt-0 mx-auto"
                     >
-                      <span className="text-hint">I'm</span> Ahmed <br /> Haytham
+                      <span className="text-hint">I'm</span> Ahmed <br className='visible lg:hidden'/> Haytham, <br />
+                      
                     </h1>
+                   
                   </div>
                   <h2 className="capitalize  select-none font-bold text-sm md:text-2xl w-fit self-start bg-secondary text-primary border border-secondary px-1">
                     <span>Freelance</span> front-end developer / designer
                   </h2>
+                  <p className='text-[1rem]/[1.5] sm:text-3xl font-black '>I give growing brands and startups the <br /> premium tailored websites they deserve </p>
                 </div>
               </div>
             </span>

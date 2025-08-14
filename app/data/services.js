@@ -7,7 +7,7 @@ export const services = [
       "I create unique, custom-coded websites that are tailored to your brand and needs.",
   },
   {
-    title: "Mobile Development",
+    title: "Mobile Design",
     quote:
       '"The future of mobile is the future of online. It is how people access online content now." - David Murphy',
     content:
