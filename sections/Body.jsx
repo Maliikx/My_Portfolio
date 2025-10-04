@@ -332,7 +332,7 @@ const Body = () => {
             {selectedWork.map((work, i)=>(
                 <div ref={ref => SelectedWorkRef.current[i]= ref} key={i}  className="flex flex-col lg:flex-row ">
                 <div ref={ref => titleRef.current[i]= ref} className=" w-1/2 ">
-                  <h1 className="lg:absolute   uppercase z-[-1] -mt-30 w-[60vw] wrap-break-word text-[2rem]/[2rem] md:text-[3rem]/[3rem] lg:text-[10rem]/[10rem]   xl:text-[12.5rem]/[15rem] font-bold"> 
+                  <h1 className="lg:absolute whitespace-break-spaces  uppercase z-[-1] -mt-30 w-[60vw]  text-[2rem]/[2rem] md:text-[3rem]/[3rem] lg:text-[10rem]/[10rem]   xl:text-[12.5rem]/[15rem] font-bold"> 
                   {/* xl:text-[15rem]/[18rem] */}
                     {work.title}
                   </h1>

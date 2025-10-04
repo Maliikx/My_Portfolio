@@ -1,7 +1,18 @@
 export const selectedWork = [
     {
+        'title' : 'Bedir Home Recliner',
+        'imgPath' : '/gifs/bedir.gif',
+        'description' : 'Complete redesign of the whole E-Commerce store and built an animated SEO-friendly landing page compatible across all screen sizes ',
+        'link' : 'https://bedireg.com',
+        'date' : '2025',
+        'job': 'Developed',
+        'hue': '007996'
+
+    },
+
+    {
         'title' : 'Zanzibar Heritage Villas',
-        'imgPath' : '/zanzibar/zanzibar.gif',
+        'imgPath' : '/gifs/zanzibar.gif',
         'description' : 'Designed a custom animated hero section and transformed PDF slides into responsive web sections, maintaining brand aesthetics and cross-device performance',
         'link' : 'https://Heritage.Villas',
         'date' : '2025',
