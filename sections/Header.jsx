@@ -109,7 +109,7 @@ export default function Header() {
           >
             <div className=" pl-3 md:pl-1.5 flex flex-col items-start gap-3">
               <h1 className=" select-none font-bold text-[4rem]/[4rem]  sm:text-[5rem]/[5rem] md:text-[6rem]/[6rem] uppercase">
-                They call <br className='visible lg:hidden'/>  me <span className="text-primary">Malek</span>,
+                They call <br className='visible lg:hidden'/>  me <span className="text-primary">Maliik</span>,
               </h1>
               <h2 className=" capitalize  select-none font-bold text-sm md:text-2xl w-fit self-start text-secondary border border-secondary px-1">
                 <span className=" select-none text-primary">Creative</span> front-end developer / designer
@@ -128,7 +128,7 @@ export default function Header() {
                       ref={heroRef}
                       className="words  select-none text-[4rem]/[4rem]  sm:text-[5rem]/[5rem] md:text-[6rem]/[6rem] uppercase font-bold w-fit mt-0 mx-auto"
                     >
-                      <span className="text-hint">I'm</span> Ahmed <br className='visible lg:hidden'/> Haytham, <br />
+                      <span className="text-hint">I'm</span> Ahmed <br className='visible lg:hidden'/> Haitham, <br />
                       
                     </h1>
                    

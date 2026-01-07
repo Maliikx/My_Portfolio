@@ -1,5 +1,16 @@
 export const selectedWork = [
   {
+    title: "Nour Store lenses",
+    imgPath: "/gifs/Nour-lenses.gif",
+    description:
+      "Redesigned and optimized the e-commerce homepage, built custom offer funnels, interactive UI components, and ensured fast, responsive, and conversion-focused user experience across all devices.",
+    link: "https://nourlensesstore.com/",
+    date: "2025",
+    job: "Developed - Designed",
+    hue: "bb1a3c",
+  },
+
+  {
     title: "Bedir Home Recliner",
     imgPath: "/gifs/bedir.gif",
     description:
