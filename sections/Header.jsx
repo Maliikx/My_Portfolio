@@ -121,7 +121,7 @@ export default function Header() {
         <div className={styles.body}>
           <div id="heroCon">
             <span>
-              <div className="flex flex-col   ">
+              <div className="flex flex-col    ">
                 <div className="w-fit flex flex-col gap-3 items-start">
                   <div className="overflow-hidden">
                     <h1
@@ -136,8 +136,10 @@ export default function Header() {
                   <h2 className="capitalize  select-none font-bold text-sm md:text-2xl w-fit self-start bg-secondary text-primary border border-secondary px-1">
                     <span>Freelance</span> front-end developer / designer
                   </h2>
+
                   <p className='text-[1rem]/[1.5] sm:text-3xl font-black '>I give growing brands and startups the <br /> premium tailored websites they deserve </p>
                 </div>
+                
               </div>
             </span>
           </div>

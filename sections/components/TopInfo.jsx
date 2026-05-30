@@ -1,8 +1,9 @@
 "use client";
-import React from "react";
+import React, { useRef } from "react";
 
 import { useEffect, useState } from "react";
 import Fliplink from "./Fliplink";
+import gsap from "gsap";
 
 const wrapperStyle = "flex flex-col  px-3";
 const  labelsStyle = " font-semibold uppercase sm:text-lg";
@@ -12,33 +13,48 @@ const  contentStyle = " uppercase";
 //TODO fix alignment
 
 const TopInfo = () => {
+  const menuRef = useRef(null);
   const [time, setTime] = useState("");
 
   useEffect(() => {
-    const updateClock = () => {
-      const now = new Date();
-      const utc = now.getTime() + now.getTimezoneOffset() * 60000;
-      const gmtPlus2 = new Date(utc + 3 * 3600000);
+    // const updateClock = () => {
+    //   const now = new Date();
+    //   const utc = now.getTime() + now.getTimezoneOffset() * 60000;
+    //   const gmtPlus2 = new Date(utc + 3 * 3600000);
 
-      const timeString = gmtPlus2.toLocaleTimeString("en-GB", {
-        hour: "2-digit",
-        minute: "2-digit",
-        second: "2-digit",
-        hour12: true, // enables AM/PM format
-      });
+    //   const timeString = gmtPlus2.toLocaleTimeString("en-GB", {
+    //     hour: "2-digit",
+    //     minute: "2-digit",
+    //     second: "2-digit",
+    //     hour12: true, // enables AM/PM format
+    //   });
 
-      setTime(timeString);
-    };
+    //   setTime(timeString);
+    // };
+    gsap.to(menuRef.current, {
+      width: "100%",
+      height: "100%",
+      borderRadius: "0",
+      duration: 1,
+      ease: 'power4.out'
+      
+    });
+    // const interval = setInterval(updateClock, 1000);
+    // updateClock(); // Set immediately
 
-    const interval = setInterval(updateClock, 1000);
-    updateClock(); // Set immediately
-
-    return () => clearInterval(interval);
+    // return () => clearInterval(interval);
   }, []);
 
   return (
-    <div className="text-secondary flex flex-col gap-2 absolute z-10 top-3 w-full  items-center ">
+   <>
+   {/* <div ref={menuRef} className="bg-hint w-0 h-0 fixed z-13 overflow-clip  ">
+    <h1 className="text-secondary text-9xl font-bold">Home</h1>
+    <h1 className="text-secondary text-9xl font-bold">Footer</h1>
+    <h1 className="text-secondary text-9xl font-bold">Home</h1>
+   </div> */}
+   <div className="text-secondary flex flex-col gap-2 absolute z-10 top-3 w-full  items-center ">
       <div className="flex flex-wrap justify-between w-[80%]">
+      {/* <button className=' font-black border-2 border-hint  bg-hint px-3 rounded-lg text-secondary cursor-pointer hover:bg-transparent hover:text-secondary  '>Menu</button> */}
         
         {/* <div className={wrapperStyle}>
           <h1 className={labelsStyle}>Status</h1>
@@ -60,15 +76,16 @@ const TopInfo = () => {
         </div> */}
 
         <a href='#Contact' className={`bg-hint rounded-md text-primary justify-center font-bold ${wrapperStyle}`}>
-          {/* <h1 className={labelsStyle}>Resume</h1> */}
+           {/* <h1 className={labelsStyle}>Resume</h1> */}
           <Fliplink href='#Contact' className={` ${contentStyle}`}>Contact</Fliplink>
+
         </a>
 
-        {/* <button className=' font-black border-2 border-hint  bg-hint px-3 rounded-lg text-primary cursor-pointer hover:bg-transparent hover:text-secondary  '>Contact</button> */}
       </div>
 
       <hr className="  border-secondary w-[90%] " />
     </div>
+   </>
   );
 };
 

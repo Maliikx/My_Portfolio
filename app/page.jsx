@@ -1,16 +1,16 @@
 'use client'
-import Image from "next/image";
 import Header from "@/sections/Header";
 import Body from "@/sections/Body";
 import Footer from "@/sections/Footer";
 import gsap from "gsap";
-import { ScrollTrigger } from "gsap/all";
 
-import { useScroll, motion, useTransform } from "framer-motion";
+
+
 import NavBar from "@/sections/components/NavMenu";
 import { useState, useRef, useEffect } from "react";
 import Contact from "@/sections/components/Contact";
 import NavMenu from "@/sections/components/NavMenu";
+import TopInfo from "@/sections/components/TopInfo";
 
 export default function Home() {
   const [showMenu, setShowMenu] = useState(false);
@@ -37,7 +37,7 @@ export default function Home() {
     return () => {
       context.revert;
     }
-  }, [])
+  }, []);
   
 
 
@@ -76,6 +76,7 @@ export default function Home() {
         </div>
         <div className=" bg-fuchsia-600 h-[100vh] w-1/4"></div>
       </div> */}
+          {/* <TopInfo/> */}
 
       <Header />
 

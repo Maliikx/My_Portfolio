@@ -11,7 +11,24 @@
   --color-accent:#afa18f;
   --color-hint: #ec4e39;
 }
+@layer utilities {
+  .preserve-3d {
+    transform-style: preserve-3d;
+  }
+
+  .backface-hidden {
+    backface-visibility: hidden;
+    /* Safari support */
+    -webkit-backface-visibility: hidden; 
+  }
+
+  .rotate-x-180 {
+    transform: rotateX(180deg);
+  }
+}
+
 :root {
+  
   --color-primary: #e7e2dd;
   --color-secondary: #111;
   --color-accent:#afa18f;
