@@ -413,7 +413,7 @@ const Body = () => {
         onWheel={(e) => e.stopPropagation()}
         onTouchMove={(e) => e.stopPropagation()}
       >
-        <div className="sticky top-0 z-[90] flex justify-end px-5 sm:px-8 py-3 bg-hint">
+        <div className="sticky cursor-pointer top-0 z-[90] flex justify-end px-5 sm:px-8 py-3 bg-hint">
           <button
             onClick={handleClose}
             aria-label="Close"
