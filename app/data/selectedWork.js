@@ -5,7 +5,7 @@ export const selectedWork = [
     imgPath: "/nourLenses/nour0.gif",
     description:
       "Redesigned and optimized the e-commerce homepage, built custom offer funnels, interactive UI components, and ensured fast, responsive, and conversion-focused user experience across all devices.",
-    link: "https://q0mir3-yr.myshopify.com/", 
+    link: "https://nourlensesstore.com/", 
     date: "2025",
     job: "Developed - Designed",
     hue: "920F41",
