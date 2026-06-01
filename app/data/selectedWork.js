@@ -144,7 +144,7 @@ export const selectedWork = [
   // },
   {
     slug: "soul-support",
-    title: "Soul Support",
+    title: "Soul Support App",
     imgPath: "/soulSupport/ss0.jpg",
     description:
       "My Graduation project an AI-powered Mental Health Support cross-platform App  which was Awarded #1 in the department",
