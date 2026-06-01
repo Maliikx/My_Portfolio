@@ -413,11 +413,11 @@ const Body = () => {
         onWheel={(e) => e.stopPropagation()}
         onTouchMove={(e) => e.stopPropagation()}
       >
-        <div className="sticky cursor-pointer top-0 z-[90] flex justify-end px-5 sm:px-8 py-3 bg-hint">
+        <div className="sticky  top-0 z-[90] flex justify-end px-5 sm:px-8 py-3 bg-hint">
           <button
             onClick={handleClose}
             aria-label="Close"
-            className="w-10 h-10 rounded-full border-2 border-primary text-primary flex items-center justify-center hover:bg-primary hover:text-secondary transition-colors duration-200"
+            className="w-10 h-10 cursor-pointer rounded-full border-2 border-primary text-primary flex items-center justify-center hover:bg-primary hover:text-secondary transition-colors duration-200"
           >
             <X size={18} />
           </button>
