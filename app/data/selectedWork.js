@@ -92,7 +92,7 @@ export const selectedWork = [
         alt: "Hero Section",
       },
       {
-        src: "/zanzibar/zen3.jpeg",
+        src: "/zanzibar/zen4.jpeg",
         alt: "Stats Section",
       },
       {
