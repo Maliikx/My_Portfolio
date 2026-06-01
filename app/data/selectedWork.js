@@ -157,12 +157,12 @@ export const selectedWork = [
     results: "Soul Support launched as a fully functional cross-platform application covering the complete patient journey across six feature modules — from daily mood check-ins to therapist-reviewed analytics charts — with custom animations throughout and a 25% improvement in screen load time over the unoptimized baseline. The project was awarded first place by the Alexandria University faculty panel, recognized for both its technical execution and its meaningful application to real-world mental healthcare. The defining learning was that UI in a mental health context carries responsibility beyond aesthetics: every timing decision, color choice, and transition is a micro-communication about safety and calm — and internalizing that raised my standard for what intentional design actually means.",
     gallery: [
       {
-        src: "/soulSupport/ss5.gif",
-        alt: "Scroll animation",
+        src: "/soulSupport/ss6.gif",
+        alt: "Home Screens",
       },
       {
-        src: "/soulSupport/ss6.gif",
-        alt: "Hero Section",
+        src: "/soulSupport/ss5.gif",
+        alt: "Mood logger & Exercises list",
       },
     ],
   },
